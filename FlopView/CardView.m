@@ -26,9 +26,9 @@
     [self addSubview:self.bgImageView];
 }
 
-- (void)prepareWithImageName:(NSString *)imageName {
-    [self.bgImageView setImage:nil];
-    self.backgroundColor = [UIColor orangeColor];
+- (void)prepareWithBgColor:(UIColor *)color {
+    [self.bgImageView setImage:nil] ;
+    self.backgroundColor = color;
     self.layer.borderWidth = 0.5;
     self.layer.borderColor = [UIColor lightGrayColor].CGColor;
 }

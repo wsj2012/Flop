@@ -15,6 +15,7 @@
 		A2263C511F66649700F70212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2263C4F1F66649700F70212 /* LaunchScreen.storyboard */; };
 		A2263C641F666C0700F70212 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2263C611F666C0700F70212 /* CardView.m */; };
 		A2263C651F666C0700F70212 /* FlopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2263C631F666C0700F70212 /* FlopView.m */; };
+		A2263C671F666CE200F70212 /* Flop.podspec in Resources */ = {isa = PBXBuildFile; fileRef = A2263C661F666CE200F70212 /* Flop.podspec */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		A2263C611F666C0700F70212 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
 		A2263C621F666C0700F70212 /* FlopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlopView.h; sourceTree = "<group>"; };
 		A2263C631F666C0700F70212 /* FlopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlopView.m; sourceTree = "<group>"; };
+		A2263C661F666CE200F70212 /* Flop.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Flop.podspec; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 		A2263C411F66649700F70212 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A2263C661F666CE200F70212 /* Flop.podspec */,
 				A2263C421F66649700F70212 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -155,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2263C511F66649700F70212 /* LaunchScreen.storyboard in Resources */,
+				A2263C671F666CE200F70212 /* Flop.podspec in Resources */,
 				A2263C4E1F66649700F70212 /* Assets.xcassets in Resources */,
 				A2263C4C1F66649700F70212 /* Main.storyboard in Resources */,
 			);

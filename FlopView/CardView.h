@@ -13,6 +13,6 @@
 @property (nonatomic, assign) CGPoint originCenter;
 @property (nonatomic, strong) UIImageView *bgImageView;
 
-- (void)prepareWithImageName:(NSString *)imageName;
+- (void)prepareWithBgColor:(UIColor *)color;
 
 @end

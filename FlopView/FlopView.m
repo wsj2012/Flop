@@ -128,7 +128,7 @@
     [view.layer addAnimation:animationGroup forKey:@"animationGroup"];
     
     dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(_duration/2.0 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
-        [view prepareWithImageName:@"sign_card_positive"];
+        [view prepareWithBgColor:[UIColor orangeColor]];
     });
     
 }
@@ -152,7 +152,7 @@
         
         for (CardView *view in self.cardViewArray) {
             if (view.tag != self.clickTag) {
-                [view prepareWithImageName:@"sign_card_positive"];
+                [view prepareWithBgColor:[UIColor whiteColor]];
             }
         }
     }
