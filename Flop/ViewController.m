@@ -30,6 +30,10 @@
 }
 
 - (void)showFlopView {
+    if (self.flopView) {
+        [self.flopView removeFromSuperview];
+        self.flopView = nil;
+    }
     [self.view addSubview:self.flopView];
 }
 

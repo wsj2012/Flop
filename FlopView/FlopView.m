@@ -79,7 +79,6 @@
     CGPoint fromPoint = view.originCenter;
     if (!self.flag) {
         fromPoint = self.popBgView.center;
-        view.userInteractionEnabled = NO;
     }
     
     CGPoint toPoint = self.popBgView.center;
@@ -133,6 +132,14 @@
     
 }
 
+- (void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
+    UITouch *touch = [touches anyObject];
+    CGPoint point = [touch locationInView:self];
+    if (!self.flag && !CGRectContainsPoint(self.popView.frame, point)) {
+        [self removeFromSuperview];
+    }
+}
+
 #pragma mark - CAAnimationDelegate
 
 - (void)animationDidStart:(CAAnimation *)anim {
@@ -148,11 +155,12 @@
         self.tapView.center = self.tapView.originCenter;
         [self addSubview:self.tapView];
         self.popBgView.hidden = YES;
-        
-        
+        self.tapView.userInteractionEnabled = NO;
+
         for (CardView *view in self.cardViewArray) {
             if (view.tag != self.clickTag) {
                 [view prepareWithBgColor:[UIColor whiteColor]];
+                view.userInteractionEnabled = NO;
             }
         }
     }
