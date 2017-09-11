@@ -13,8 +13,8 @@
 		A2263C4C1F66649700F70212 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2263C4A1F66649700F70212 /* Main.storyboard */; };
 		A2263C4E1F66649700F70212 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2263C4D1F66649700F70212 /* Assets.xcassets */; };
 		A2263C511F66649700F70212 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2263C4F1F66649700F70212 /* LaunchScreen.storyboard */; };
-		A2263C5B1F66659600F70212 /* FlopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2263C5A1F66659600F70212 /* FlopView.m */; };
-		A2263C5E1F66665500F70212 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2263C5D1F66665500F70212 /* CardView.m */; };
+		A2263C641F666C0700F70212 /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2263C611F666C0700F70212 /* CardView.m */; };
+		A2263C651F666C0700F70212 /* FlopView.m in Sources */ = {isa = PBXBuildFile; fileRef = A2263C631F666C0700F70212 /* FlopView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +28,10 @@
 		A2263C4D1F66649700F70212 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A2263C501F66649700F70212 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A2263C521F66649700F70212 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2263C591F66659600F70212 /* FlopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlopView.h; sourceTree = "<group>"; };
-		A2263C5A1F66659600F70212 /* FlopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlopView.m; sourceTree = "<group>"; };
-		A2263C5C1F66665500F70212 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
-		A2263C5D1F66665500F70212 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		A2263C601F666C0700F70212 /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		A2263C611F666C0700F70212 /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		A2263C621F666C0700F70212 /* FlopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FlopView.h; sourceTree = "<group>"; };
+		A2263C631F666C0700F70212 /* FlopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FlopView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +64,7 @@
 		A2263C401F66649700F70212 /* Flop */ = {
 			isa = PBXGroup;
 			children = (
-				A2263C581F66652300F70212 /* FlopView */,
+				A2263C5F1F666C0700F70212 /* FlopView */,
 				A2263C441F66649700F70212 /* AppDelegate.h */,
 				A2263C451F66649700F70212 /* AppDelegate.m */,
 				A2263C471F66649700F70212 /* ViewController.h */,
@@ -86,16 +86,16 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		A2263C581F66652300F70212 /* FlopView */ = {
+		A2263C5F1F666C0700F70212 /* FlopView */ = {
 			isa = PBXGroup;
 			children = (
-				A2263C591F66659600F70212 /* FlopView.h */,
-				A2263C5A1F66659600F70212 /* FlopView.m */,
-				A2263C5C1F66665500F70212 /* CardView.h */,
-				A2263C5D1F66665500F70212 /* CardView.m */,
+				A2263C601F666C0700F70212 /* CardView.h */,
+				A2263C611F666C0700F70212 /* CardView.m */,
+				A2263C621F666C0700F70212 /* FlopView.h */,
+				A2263C631F666C0700F70212 /* FlopView.m */,
 			);
 			path = FlopView;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -168,9 +168,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A2263C491F66649700F70212 /* ViewController.m in Sources */,
-				A2263C5B1F66659600F70212 /* FlopView.m in Sources */,
-				A2263C5E1F66665500F70212 /* CardView.m in Sources */,
+				A2263C651F666C0700F70212 /* FlopView.m in Sources */,
 				A2263C461F66649700F70212 /* AppDelegate.m in Sources */,
+				A2263C641F666C0700F70212 /* CardView.m in Sources */,
 				A2263C431F66649700F70212 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
