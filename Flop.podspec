@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name         = "Flop"
-s.version      = "1.0.0"
+s.version      = "1.1.0"
 s.summary      = "Flop animations.Imitating Jingdong, palm reading, sign in animation."
 s.homepage     = "https://github.com/wsj2012/Flop"
 s.license      = "MIT"
