@@ -3,7 +3,5 @@
 
 最终效果：
 
-<div align=center style="width:300px">
-![MacDown Screenshot](drop.gif)
-</div>
+![baidu](https://github.com/wsj2012/Flop/blob/master/drop.gif) 
 
