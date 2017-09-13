@@ -1,5 +1,5 @@
 # Flop
-仿京东、掌阅等签到翻牌动画
+Flop animations.Imitating Jingdong, palm reading, sign in animation.
 
 最终效果：
 
